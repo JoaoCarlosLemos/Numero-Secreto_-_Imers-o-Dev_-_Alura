@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Numero Secreto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container" name="background" style="background: url(https://raw.githubusercontent.com/JoaoCarlosLemos/imagens/main/background-numeroSecreto-01.jpg)">
+      
+      <div class="Sons">
+        <audio loop src="https://github.com/JoaoCarlosLemos/Audios/raw/main/miss%C3%A3o_imposs%C3%ADvel.mp3"></audio>
+        <audio class="somDerrota" src="https://github.com/JoaoCarlosLemos/Audios/raw/main/game_over.mp3"></audio>
+        <audio class="somVitoria" src="https://github.com/JoaoCarlosLemos/Audios/raw/main/vitoria.mp3"></audio>
+      </div>
+      
+      <div class="reiniciar">
+        <button type="submit" id="btnReiniciar"  onclick="reiniciar()">JOGAR NOVAMENTE</button>
+      </div>
+      
+      <div class= "conteudo">
+        <input type="number" min="0" max="10" id="valor" placeholder=" --"/>
+        <button type="submit" id="btnOpen" onclick="Chutar()">OPEN</button>
+        <h1 class="tentativas" id="tentativas">0</h1>
+      </div>
+      
+      <div class="rodape">
+        <img src= "" id="cadeado"/>
+        <h2 class="resultado" id="resultado"></h2>
+      </div >
+      
+    </div>
+
+    <script src="index.js"></script>
+  </boddy>
+</html>

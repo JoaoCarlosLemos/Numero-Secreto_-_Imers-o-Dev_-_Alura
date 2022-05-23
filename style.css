@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+body {
+	font-family: "Inter", sans-serif;
+	background: #000;
+    overflow: hidden;
+}
+
+.container {
+  position: absolute;
+  left: 50px;
+  right:50px;
+  margin: 5vh auto;
+  width: 900px;
+  height: 550px;
+  border-radius: 0px 40px 0px 40px;
+}
+
+.tentativas{
+  color:white;
+  position:absolute;
+  top:60px;
+  left:860px;
+}
+
+input{
+  width: 36px;
+  font-size:14pt;
+  position: absolute;
+  top:281px;
+  left: 428px;
+  color:#4f4d4d;
+  background-color:white;
+  border: 0 none;
+  outline: 0;
+  border-radius: 7px;
+}
+
+input[disabled]{
+  background-color:#ababab;
+}
+
+#btnOpen{
+  width: 70px;
+  height: 30px;
+  font-size:13pt;
+  color:white;
+  position:absolute;
+  top:350px;
+  left: 418px;
+  background-color:#ff0033;
+  border: 0 none;
+  outline: 0;
+  border-radius: 7px;
+}
+
+#btnOpen:hover{
+  background-color:#4cb27c;
+}
+
+#btnOpen[disabled]{
+  background-color:#4f4d4d;
+  color:#ababab;
+}
+
+#btnReiniciar{
+  width: 120px;
+  height: 25px;
+  font-size:8pt;
+  color:white;
+  position:absolute;
+  top:140px;
+  left: 750px;
+  background-color:#4c92b2;
+  border: 0 none;
+  outline: 0;
+  border-radius: 3px;
+  display : none;
+}
+
+#cadeado{
+  position:absolute;
+  top:470px;
+  left:300px;
+}
+
+.resultado {
+  color: white;
+  text-align: center;
+  position:absolute;
+  top:470px;
+  left:347px;
+  font-size:7pt;
+}
